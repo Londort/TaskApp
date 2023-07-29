@@ -1,0 +1,39 @@
+@import url("./normalize.css");
+@import url("./components/header.css");
+@import url("./components/main.css");
+@import url("./components/footer.css");
+@import url("./components/popup.css");
+
+:root {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+body {
+    height: 100vh;
+    background-color: #e0e0e0;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    cursor: pointer;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 21px;
+    background: #e0e0e0;
+    box-shadow: 10px 10px 20px #b3b3b3,
+        -10px -10px 20px #ffffff;
+}

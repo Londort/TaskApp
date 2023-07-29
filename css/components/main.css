@@ -1,0 +1,51 @@
+main {
+  flex: 1 1 auto;
+  padding: 20px 0px;
+  width: 80%;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+article.task {
+  margin-bottom: 20px;
+}
+
+/* styles.css */
+/* CSS styles for the accordion */
+.task__header {
+  margin: 0;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+  border-radius: 21px;
+  background: #e0e0e0;
+  box-shadow: 10px 10px 20px #b3b3b3, -10px -10px 20px #ffffff;
+}
+.task__header p {
+  margin: 0;
+}
+
+.task__description {
+  display: none;
+  padding: 10px 10px 10px 30px;
+}
+
+.task__description.active {
+  display: block;
+}
+
+.task__buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.task__buttons button {
+  padding: 5px 15px;
+  margin-left: 10px;
+  border-radius: 21px;
+  background: #e0e0e0;
+  box-shadow: 10px 10px 20px #b3b3b3, -10px -10px 20px #ffffff;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,75 @@
+main{
+    flex: 1 1 auto;
+    padding: 20px 0px;
+    width: 80%;
+}
+section{
+    width: 80%;
+    margin: 0 auto;
+}
+article.task{
+    margin-bottom: 20px;
+}
+// .task__caption{
+//     height: 100%;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     border-bottom: 1px solid #2a2929;
+//     // padding: 10px;
+//     & button{
+//         height: 2rem;
+//         border: 1px solid #2a2929;
+//         border-radius: 15px;
+//         padding: 0px 20px;
+//         font-size: 0.8rem;
+//     }
+//     & p{
+//         flex: 1 1 auto;
+//     }
+// }
+// .task__description{
+//     padding: 10px 30px;
+// }
+
+/* styles.css */
+
+/* CSS styles for the accordion */
+ 
+  .task__header {
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 21px;
+    background: #e0e0e0;
+    box-shadow: 10px 10px 20px #b3b3b3,
+        -10px -10px 20px #ffffff;
+    & p{
+        margin: 0;
+    }
+  }
+  
+  .task__description {
+    display: none;
+    padding: 10px 10px 10px 30px;
+  }
+  
+  .task__description.active {
+    display: block;
+  }
+
+  .task__buttons {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .task__buttons button {
+    padding: 5px 15px;
+    margin-left: 10px;
+    border-radius: 21px;
+    background: #e0e0e0;
+    box-shadow: 10px 10px 20px #b3b3b3,
+        -10px -10px 20px #ffffff;
+  }
+  
