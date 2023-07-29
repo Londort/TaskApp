@@ -1,38 +1,19 @@
 main{
     flex: 1 1 auto;
+    width: 100%;
     padding: 20px 0px;
-    width: 80%;
 }
 section{
     width: 80%;
     margin: 0 auto;
+    @media (max-width: 767px) {
+        width: 100%;
+    }
 }
+
 article.task{
     margin-bottom: 20px;
 }
-// .task__caption{
-//     height: 100%;
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;
-//     border-bottom: 1px solid #2a2929;
-//     // padding: 10px;
-//     & button{
-//         height: 2rem;
-//         border: 1px solid #2a2929;
-//         border-radius: 15px;
-//         padding: 0px 20px;
-//         font-size: 0.8rem;
-//     }
-//     & p{
-//         flex: 1 1 auto;
-//     }
-// }
-// .task__description{
-//     padding: 10px 30px;
-// }
-
-/* styles.css */
 
 /* CSS styles for the accordion */
  

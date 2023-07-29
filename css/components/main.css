@@ -1,19 +1,23 @@
 main {
   flex: 1 1 auto;
+  width: 100%;
   padding: 20px 0px;
-  width: 80%;
 }
 
 section {
   width: 80%;
   margin: 0 auto;
 }
+@media (max-width: 767px) {
+  section {
+    width: 100%;
+  }
+}
 
 article.task {
   margin-bottom: 20px;
 }
 
-/* styles.css */
 /* CSS styles for the accordion */
 .task__header {
   margin: 0;
